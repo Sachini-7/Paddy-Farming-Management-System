@@ -1,0 +1,274 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #effcf1;
+    margin: 0;
+}
+
+
+.container {
+    background-color: #ffffff;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-right: 130px;
+    background-color: rgba(205, 208, 203, 0.7) !important;
+    color: black;
+    height: 880px;
+}
+
+/* General Input Styles */
+.input-group input[type="text"],
+.input-group input[type="date"],
+.input-group input[type="tel"],
+.input-group textarea,
+.input-group select {
+    width: 100%;
+    padding: 5px;
+    margin: 1px 0; 
+    border: 0px solid #cccccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333333;
+    margin-top: 0 !important;
+}
+
+/* Password Input Styles */
+.input-group.input-password-group input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0; 
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333333;
+}
+
+/* Address Input Group Styles */
+.input-group.address-group {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin: 5px 0; 
+}
+
+.input-group.address-group input,
+.input-group.address-group select {
+    flex: 1;
+}
+
+/* Division Code and Block Number on Same Line */
+.input-group.divisional-code-group {
+    display: flex;
+    align-items: center;
+    margin: 5px 0; 
+}
+
+.input-group.divisional-code-group input[type="text"],
+.input-group.divisional-code-group select {
+    flex: 1;
+    margin-right: 10px;
+}
+
+/* Select Province and Select District on Same Line */
+.input-group.province-district-group {
+    display: flex;
+    gap: 10px;
+    margin: 5px 0; 
+}
+
+.input-group.province-district-group select {
+    flex: 1;
+}
+
+/* Remaining Styles (unchanged) */
+h1 {
+    color: #333333;
+    padding-bottom: 0px;
+}
+
+.section {
+    border-bottom: 1px solid #cccccc;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+h4 {
+    color: #5A5F58;
+    padding-top: 0px;
+}
+
+.input-group {
+    margin-bottom: 4px; 
+}
+
+.label {
+    color: #666666;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group label {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.input-group input[type="radio"] {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+
+
+button {
+  padding: 10px 20px;
+  background-color: #309011;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 0 auto; 
+  
+}
+
+.password-fields {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.password-fields input[type="password"] {
+    width: 150px;
+}
+
+.password-fields label[for="confirmPassword"] {
+    margin-left: 20px;
+}
+
+.input-group label[for="province"],
+.input-group #province {
+    display: block;
+    margin-top: 10px;
+}
+
+.password-strength {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+
+/* registration.css */
+
+.flex-container {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+}
+
+
+.registration-topic-container {
+  width: 1700px;
+  height: 1068px;
+  margin-top: 20px;
+  margin-left: 120px;
+  padding: 30px;
+  border-radius: 0px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-right: 10px;
+  background-color: rgba(205, 208, 203, 0.7) !important;
+  position: relative;
+}
+
+.registration-topic {
+  font-size: 50px;
+  text-align: center; /* Align text to the left */
+  margin-left: 60px;
+  padding: 150px 0;
+  line-height: 1.5;
+  position: relative;
+}
+
+.special-text {
+  color: #D60A0A;
+  font-weight: bold;
+}
+
+
+
+
+
+.add-customer-container {
+  position: relative;
+}
+
+.add-customer-container::before {
+  content: "";
+  background-image: url('./images/regpic.jpg'); 
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center center;
+  filter: blur(5px); 
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; 
+}
+
+
+h1 {
+  text-align: center;
+  font-size: 36px; 
+  color: #333; 
+  margin: 20px 0; 
+  line-height: 1.5; 
+  word-spacing: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: "Bowlby One";
+  font-weight: bold;
+}
+
+
+
+
+  /* DeleteAccount page's style sheet*/
+  .delete-account-container {
+    text-align: center; 
+    margin: 20px auto; 
+    max-width: 400px; 
+  }
+  
+  h2 {
+    font-size: 24px; 
+  }
+  
+  p {
+    font-size: 18px; 
+  }
+  
+  button {
+    margin-top: 20px; 
+  }
+  
+/*styles for cancel button */
+.cancel-button {
+  background-color: transparent;
+  color: #333;
+  border: 1px solid #333;
+  padding: 5px 10px; 
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px; 
+  display: block;
+  margin: 10px auto; 
+}
+
+.cancel-button:hover {
+  background-color: #ddd;
+  color: #333;
+}

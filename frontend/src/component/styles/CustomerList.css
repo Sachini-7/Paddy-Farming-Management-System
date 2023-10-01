@@ -1,0 +1,158 @@
+/* External CSS file (e.g., styles.css) */
+
+/* Style the customer list table container */
+.customer-list-table-container {
+    margin: 20px;
+    border-collapse: collapse; /* Collapse borders to prevent spacing */
+    width: 90%;
+    margin-left: 40px !important;
+  }
+  
+  /* Style the customer list table headers */
+  .customer-list-table th {
+    background-color: #b3ceb2;
+    border: 1px solid #ddd; /* Header border */
+  padding: 8px; /* Header padding */
+  text-align: left;
+  }
+  
+  /* Style the customer list table rows */
+  .customer-list-table tbody tr:nth-child(even) {
+    background-color: #e0e0e0;
+  }
+
+  .customer-list-table tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Style customer list table cells (td) */
+  .customer-list-table td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  /* Style the customer list Download button */
+  .customer-list-download-button {
+    background-color: #349244;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  /* Style customer list table headings (th) */
+  .customer-list-table th {
+    font-weight: bold;
+  }
+  
+  .customer-list-table tbody tr:hover {
+    background-color: #ddd; /* Change the background color on hover */
+  }
+  
+  /* Style customer list table cells (td) on hover */
+  .customer-list-table tbody td:hover {
+    background-color: #f5f5f5; 
+    color: #333; 
+  }
+
+  .download-button {
+    padding: 8px 16px; 
+    background-color: #2f853d; 
+    color: #fff; 
+    border: none; 
+    cursor: pointer; 
+    border-radius: 10px; 
+    margin-left: 60px;
+    margin-bottom: 80px;
+    margin-top: 50px !important;
+  }
+  
+  /* Style the download button on hover */
+  .download-button:hover {
+    background-color: #61b461; 
+  }
+
+  .customer-list-table-container .download-button {
+    display: inline-block; 
+    margin-top: 10px; 
+    margin-left: 60px !important;
+  }
+
+  .highlighted-row {
+    background-color: red; /* Set the background color to red */
+    color: rgb(255, 10, 10); /* Set the text color to white for better readability */
+  }
+  
+  /* CustomerList.css */
+.search-bar {
+    width: 20%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    font-size: 18px;
+    transition: border-color 0.3s ease;
+    background-color: #cdf0d3;
+  }
+  
+  .search-bar:focus {
+    outline: none;
+    border-color: #007BFF; /* Change this color to your desired focus color */
+    box-shadow: 0 0 5px #007BFF; /* Change this color to your desired focus shadow color */
+  }
+
+  .search-bar:hover {
+    border-color: #007BFF; /* Change this color to your desired hover color */
+  }
+  
+
+
+  /*HRHome style sheet*/
+  /* CustomerList.css */
+.custom-button {
+    background-color: #4e9e4e; /* Set the background color to your desired color */
+    color: white; /* Set the text color to white or your desired color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border: none;
+    border-radius: 20px;
+    margin-top: 50px !important;
+    margin-bottom: 50px !important;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    display: block; 
+    margin: 0 auto; 
+    transition: background-color 0.3s ease; 
+  
+    /* Add a hover effect */
+    &:hover {
+      background-color: #65be74; 
+    }
+  }
+  
+  /* styles/CustomerList.css */
+
+/* Style for the delete button */
+.dltbtn {
+    background-color: #fc4f28; /* Background color */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    padding: 3px 5px; /* Add some padding */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    height: 25px;
+}
+  
+  /* Style for the delete button on hover */
+  .dltbtn:hover {
+    background-color: #e74c3c; /* Darken the background color on hover */
+  }
+  
+  .update-btn{
+    background-color: #179e17; /* Background color */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    padding: 3px 5px; /* Add some padding */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    height: 25px;
+  }
